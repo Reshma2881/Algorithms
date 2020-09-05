@@ -1,0 +1,19 @@
+Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored. To search an element in a given array, there are two popular algorithms available:
+  1.Linear Search
+  2.Binary Search
+  
+Linear Search:
+Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+
+Algorithm:
+
+1.Given is a list l and a value v of the element type of l.
+2.Perform the following steps to search v in l:
+	Step 1: Initialize an index variable i to 0 (to refer to the first element of l, if any).
+	Step 2: Repeat the following steps until a result is returned.
+		Step 2.1: Return False, if i equals the length of l.
+		Step 2.2: Return True, if l stores v at the index i.
+		Step 2.3: Increment i.
+
+Consider the list [2,1,3,4] as input for performing linear search.
+It returns True if searched for any number present in the list otherwise it returns false.
